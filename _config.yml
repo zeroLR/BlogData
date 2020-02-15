@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 :  # site tagline that appears below site title in masthead
 name                     : "Zero"
 description              : "用來記錄平常做咚咚的Blog"
-url                      : "https://zeroLR/zeroLR.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://zeroLR.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/z_icon.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               :  "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            :  "zerolr"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -50,7 +50,7 @@ staticman:
   filename               : # comment-{@timestamp}
   format                 : # "yml"
   moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
+  path                   : # "/_data/comments/{options.slug}"
   requiredFields         : # ['name', 'email', 'message']
   transforms:
     email                : # "md5"
@@ -59,7 +59,7 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+  endpoint               : # endpoint
 reCaptcha:
   siteKey                :
   secret                 :
@@ -109,8 +109,7 @@ analytics:
 author:
   name             : "Zero"
   avatar           : "/assets/images/zeroImg.png"
- # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "zzz"
+  bio              : "☠Pytorch精進中☠"
   location         : "Kaohsiung,Taiwan"
   email            : ceyanglab@gmail.com
   links:
@@ -288,9 +287,9 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single 
+      layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # true
       share: true
       related: true

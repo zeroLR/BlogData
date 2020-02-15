@@ -3,9 +3,9 @@
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "文章分類"
      url: /categories/
-   - title: "實作"
-     url: /year-archive/
+   - title: "作品"
+     url: /portfolio/
    - title: "關於我"
-     url: /about
+     url: /about/
   # - title: "Sitemap"
   #   url: /sitemap/

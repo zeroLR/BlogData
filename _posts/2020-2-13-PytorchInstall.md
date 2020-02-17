@@ -13,9 +13,9 @@ tags:
   - Anaconda
   - Sublime Text
   - VsCode
-date: February 13, 2020
+date: February 16, 2020
 ---
->**Pytorch很適合想入門深度學習的人使用，官方文檔整理的很清楚，社區雖然還不是很完善，但有很多相關的教程可以幫助學習，之後再開一篇學習資源彙整，這篇先把Pytorch的環境架好，我是使用Win10搭配Anaconda3進行安裝**
+>**Pytorch很適合想入門深度學習的人使用，官方文檔整理的很清楚，社區雖然還不是很完善，但有很多相關的教程可以幫助學習，之後再開一篇學習資源彙整，這篇先把Pytorch的環境架好，我是使用Win10搭配Anaconda3進行安裝(如內容有誤或其他問題，歡迎留言或email)**
 {: .text-justify}
 
 
@@ -25,7 +25,7 @@ date: February 13, 2020
 **⚠ &ensp; 確認顯卡有無支援CUDA，沒有則使用CPU [CUDA支援GPU一覽](https://developer.nvidia.com/cuda-gpus)**
 {: .notice--warning}
 
- <span style="color: #58ff20; font-size:1.2em"> **安裝 Anaconda & Pytorch** </span>
+## **安裝 Anaconda & Pytorch**
 
 - 安裝[`Anaconda 3`](https://www.anaconda.com/),[`pytorch`](https://pytorch.org/get-started/locally/),[`Sublime Text`](https://www.sublimetext.com/),[`VsCode`](https://code.visualstudio.com/)(後兩者擇一)
 
@@ -71,7 +71,7 @@ torch.cuda.is_available()
 
 ```
 
-<span style="color: #58ff20; font-size:1.2em"> **在 VsCode 中用 Anaconda 建立虛擬環境編譯(推薦)** </span>
+## **在 VsCode 中用 Anaconda 建立虛擬環境編譯(推薦)**
 
 - 在左邊的 EXTENSIONS 中搜尋 Pytorch 並安裝
 ![](/assets/images/PytorchInstall/1.png)
@@ -88,7 +88,7 @@ torch.cuda.is_available()
 {: .text-center}
 
 
-<span style="color: #58ff20; font-size:1.2em"> **在 Sublime Text 中使用 Anaconda 建立的虛擬環境編譯** </span>
+## **在 Sublime Text 中使用 Anaconda 建立的虛擬環境編譯**
 
 - 選擇 Tools -> Build System -> New Build System
 

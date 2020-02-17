@@ -15,8 +15,10 @@ tags:
   - Python
   - GitHub
   - Papers
-date: February 15, 2020
+date: February 17, 2020
 ---
+
+> **這邊是我個人目前有在關注的學習資源，若有敘述錯誤或是連結失效請留言或email，有推薦的文章或教程也歡迎推坑，先感謝各位大大的指教了。**
 
 # **PyTorch**
 
@@ -47,7 +49,7 @@ date: February 15, 2020
 &nbsp;
 
 ![full](https://i0.wp.com/luckyhasae.com/wp-content/uploads/2019/10/Pytorch.png?fit=1280%2C720&ssl=1){: .align-left}{:height="250px" width="250px"}
-&emsp;&emsp;從初階到實戰，各種大大小小的學習資源全部都在這啦，目前還沒開始研究，但嗑完這個...除了巨佬我想不到別種稱號了。
+&emsp;&emsp;從初階到實戰，各種大大小小的學習資源全部都在這啦，目前還沒開始研究，但嗑完這個的話...JoJo我不做人啦!!!
 {: .text-justify}
 &nbsp;
 [史上最全的PyTorch學習資源匯總](https://github.com/INTERMT/Awesome-PyTorch-Chinese){: .btn .btn--primary }{: .align-center}
@@ -55,6 +57,7 @@ date: February 15, 2020
 &nbsp;
 
 ---
+
 
 # **數據處理**
 
@@ -78,6 +81,29 @@ date: February 15, 2020
 
 ---
 
+# **DL/ML/RL**
+
+&nbsp;
+
+![full](https://morvanzhou.github.io/static/img/course_cover/ML_intro.png){: .align-left}{:height="250px" width="250px"}
+&emsp;&emsp;這系列帶你認識一些常見的神經網絡和強化學習的相關知識，在動手實作前不妨看一看，可以對機器學習有更多認識喔。
+{: .text-justify}
+&nbsp;
+[有趣的機器學習系列 / 莫煩Python](https://morvanzhou.github.io/tutorials/machine-learning/ML-intro/){: .btn .btn--primary }{: .align-center}
+
+&nbsp;
+
+![full](https://morvanzhou.github.io/static/img/course_cover/rl.jpg){: .align-left}{:height="250px" width="250px"}
+&emsp;&emsp;對強化學習有認識後，這系列教程會實作各種model，必須具備Numpy和Pandas的知識才比較好上手，教程使用Tensorflow來實作。
+{: .text-justify}
+&nbsp;
+[強化學習系列教程 / 莫煩Python](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/){: .btn .btn--primary }{: .align-center}
+
+&nbsp;
+
+---
+
+
 # **Python**
 
 &nbsp;
@@ -100,6 +126,7 @@ date: February 15, 2020
 
 ---
 
+
 # **GitHub**
 
 &nbsp;
@@ -114,7 +141,16 @@ date: February 15, 2020
 
 ---
 
+
 # **Papers**
+
+&nbsp;
+
+![full](https://pbs.twimg.com/media/ELsiiN0WsAAkUYN.png){: .align-left}{:height="240px" width="240px"} 
+&emsp;&emsp;論文代碼結合網站，搜尋關鍵字可以找到相關的論文及GitHub代碼，實力不足只能多看別人的代碼來練習了QAQ
+{: .text-justify}
+&nbsp;
+[Papers With Code](https://paperswithcode.com/){: .btn .btn--primary }{: .align-center}
 
 &nbsp;
 
